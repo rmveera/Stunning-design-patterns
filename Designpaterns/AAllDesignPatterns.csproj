@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbstactFactoryDesignPattern\AbstactFactoryDesignPattern.csproj" />
+    <ProjectReference Include="..\AdapterDesignPattern\AdapterDesignPattern.csproj" />
+    <ProjectReference Include="..\Bridge\BridgeDesignPattern.csproj" />
+    <ProjectReference Include="..\BuilderDesignPattern\BuilderDesignPattern.csproj" />
+    <ProjectReference Include="..\ChainOfResponsiblityDesignPattern\ChainOfResponsiblityDesignPattern.csproj" />
+    <ProjectReference Include="..\Command\CommandDesignPattern.csproj" />
+    <ProjectReference Include="..\CompositeDesignPattern\CompositeDesignPattern.csproj" />
+    <ProjectReference Include="..\Decorator\DecoratorDesignPattern.csproj" />
+    <ProjectReference Include="..\FacadeDesignPattern\FacadeDesignPattern.csproj" />
+    <ProjectReference Include="..\Factory\FactoryDesignPattern.csproj" />
+    <ProjectReference Include="..\FlyweightDesignPattern\FlyweightDesignPattern.csproj" />
+    <ProjectReference Include="..\PrototypeDesignPattern\PrototypeDesignPattern.csproj" />
+    <ProjectReference Include="..\ProxyDesignPattern\ProxyDesignPattern.csproj" />
+    <ProjectReference Include="..\SingletonDesignPattern\SingletonDesignPattern.csproj" />
+  </ItemGroup>
+
+</Project>
